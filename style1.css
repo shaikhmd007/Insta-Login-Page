@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: #fafafa;
+    font-size: 14px;
+}
+.wrapper .header{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+}
+.top{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 25px 40px 20px;
+}
+.signup{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
+.logo img{
+    display: block;
+    margin: 0px auto 12px;
+}
+.form .input_field{
+    margin-bottom: 5px;
+
+}
+input{
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #262626;
+    padding: 10px;
+}
+input:focus{
+    border:  1px solid #b2b2b2;
+}
+.btn{
+    margin: 10px 0;
+    background: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+}
+.btn a{
+    color: #fff;
+    display: block;
+    font-style: bold;
+    font-family: 'Roboto',sans-serif;
+}
+.or{
+    display: flex;
+    height: 15px;
+    margin: 15px 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.line{
+    width: 105px;
+    height: 2px;
+    background: #efefef;
+}
+.or p{
+    color: #999;
+    font-size: 12px;
+}
+.diff .fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa.fa-facebook-official{
+    color: blue;
+}
+.fb p{
+    color: #385185;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.forgot {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+.forgot a{
+    color: #003569;
+}
+.signup{
+    margin: 10px 0 20px;
+    padding: 25px 40px;
+    text-align: center;
+    color: #262626;
+}
+.signup a{
+    color: #3897f0;
+}
+.apps{
+    text-align: center;
+    color: #262626;
+}
+.apps p{
+    margin-bottom: 20px;
+}
+.ios{
+    width: 135px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.play{
+    margin-top: 5px;
+    width: 155px;
+    height: 50px;
+}
+.footer .links ul{
+    width: 100%;
+    max-width: 935px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.links a{
+    font-size: 12px;
+    color: #003569;
+}
+.footer{
+    text-align: center;
+}
+.copyright{
+    color: #999;
+    text-align: center;
+    margin-bottom: 10px;
+}
